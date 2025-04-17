@@ -13,7 +13,7 @@ A VS Code extension that formats x86-64 AT&T-style `.s` assembly files.
 
 1. **Clone the repo**
    ```bash
-   git clone https://github.com/<your-username>/asm-formatter.git
+   git clone https://github.com/<HanzDaoang>/asm-formatter.git
    cd asm-formatter
    ```
 2. **Install dependencies**
@@ -36,7 +36,10 @@ A VS Code extension that formats x86-64 AT&T-style `.s` assembly files.
 1. Open any `.s` or `.S` file in VS Code.
 2. Run **Format Document**:
    - macOS: ⇧⌥F
-   - Windows/Linux: Ctrl+Shift+I
+   - **macOS**: <kbd>Shift+Option+F</kbd>
+
+> If you have another formatter (e.g. Prettier) bound to a shortcut, you can always invoke the command palette:  
+> <kbd>Ctrl+Shift+P</kbd> (or <kbd>Cmd+Shift+P</kbd> on macOS) → **Format Document**
 
 ## Contributing
 
