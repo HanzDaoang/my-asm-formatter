@@ -1,20 +1,30 @@
 {
   "name": "asm-formatter",
   "displayName": "ASM Formatter",
-  "description": "Formats x86-64 AT&T-style .s files",
   "version": "0.0.1",
-  "publisher": "yourname",
-  "license": "MIT",
-  "engines": {
-    "vscode": "^1.98.0"
+  "publisher": "Hanz Daoang",
+  "description": "Formats x86-64 AT&T-style .s files",
+  "author": {
+    "name": "Hanz Daoang"
   },
   "categories": [
     "Formatters"
   ],
+  "pricing": "Free",
   "activationEvents": [
     "onLanguage:asm"
   ],
+  "engines": {
+    "vscode": "^1.98.0"
+  },
   "main": "./extension.js",
+  "scripts": {},
+  "devDependencies": {
+    "@types/vscode": "^1.98.0",
+    "vsce": "^2.15.0",
+    "vscode": "^1.1.37"
+  },
+  "license": "MIT",
   "contributes": {
     "languages": [
       {
@@ -35,10 +45,9 @@
       }
     ]
   },
-  "scripts": {},
-  "devDependencies": {
-    "@types/vscode": "^1.98.0",
-    "vsce": "^2.15.0",
-    "vscode": "^1.1.37"
-  }
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HanzDaoang/my-asm-formatter.git"
+  },
+  "homepage": "https://github.com/HanzDaoang/my-asm-formatter#"
 }
