@@ -1,0 +1,44 @@
+{
+  "name": "asm-formatter",
+  "displayName": "ASM Formatter",
+  "description": "Formats x86-64 AT&T-style .s files",
+  "version": "0.0.1",
+  "publisher": "yourname",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.98.0"
+  },
+  "categories": [
+    "Formatters"
+  ],
+  "activationEvents": [
+    "onLanguage:asm"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "languages": [
+      {
+        "id": "asm",
+        "aliases": [
+          "Assembly",
+          "asm"
+        ],
+        "extensions": [
+          ".s",
+          ".S"
+        ]
+      }
+    ],
+    "documentFormatting": [
+      {
+        "language": "asm"
+      }
+    ]
+  },
+  "scripts": {},
+  "devDependencies": {
+    "@types/vscode": "^1.98.0",
+    "vsce": "^2.15.0",
+    "vscode": "^1.1.37"
+  }
+}
